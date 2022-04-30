@@ -35,3 +35,8 @@ Take a class youtuber webstoryboy's 'coding responsive website' lecture!
   * projection : 프로젝트를 위해 사용할 CSS를 정의
 
 * 중단점
+  * 데스크탑 이상 :
+  * 데스크탑 :
+  * 노트북 :
+  * 태블릿 :
+  * 모바일 :
