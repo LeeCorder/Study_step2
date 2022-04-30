@@ -34,7 +34,7 @@ Take a class youtuber webstoryboy's 'coding responsive website' lecture!
   * handheld : 손에 들고 다니는 장치에서 사용할 CSS를 정의
   * projection : 프로젝트를 위해 사용할 CSS를 정의
 
-* 중단점
+* 중단점 (새로운 화면크기의 장치들이 나오기에 고정적인 값이 아님)
   * 데스크탑 이상 :
   * 데스크탑 :
   * 노트북 :
