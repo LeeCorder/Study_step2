@@ -33,3 +33,5 @@ Take a class youtuber webstoryboy's 'coding responsive website' lecture!
   * tv : TV에서 사용할 CSS를 정의
   * handheld : 손에 들고 다니는 장치에서 사용할 CSS를 정의
   * projection : 프로젝트를 위해 사용할 CSS를 정의
+
+* 중단점
