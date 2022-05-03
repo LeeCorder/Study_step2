@@ -1,5 +1,6 @@
 # Study_step2
 Take a class youtuber webstoryboy's 'coding responsive website' lecture!
+Practice 'B.E.M' and 'SCSS' technique on this class!
 
 ## 1. Semantic Tag (시맨틱태그)
 * &lt;header&gt;
