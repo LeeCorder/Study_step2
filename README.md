@@ -35,8 +35,11 @@ Take a class youtuber webstoryboy's 'coding responsive website' lecture!
   * projection : 프로젝트를 위해 사용할 CSS를 정의
 
 * 중단점 (새로운 화면크기의 장치들이 나오기에 고정적인 값이 아님)
-  * 데스크탑 이상 :
-  * 데스크탑 :
-  * 노트북 :
-  * 태블릿 :
-  * 모바일 :
+  * 데스크탑 이상(4K or UltraWide) : 1904px 초과
+  * 데스크탑 : 1264px ~ 1904px
+  * 노트북 : 960px ~ 1264px
+  * 태블릿 : 600px ~ 960px
+  * 모바일 : 600px 미만
+-------
+## 3. Tip
+* 반응형 제작 시에는 스크롤바가 생기지 않아야 한다.
