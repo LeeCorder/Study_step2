@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e3f2fd;
+}
+
+$w12: 1200px;
+$h9: 900px;
+$h3: 300px;
+$back: background;
+
+.wrap {
+    margin: 0 auto;
+    width: 1200px;
+
+    header {
+        width: $w12;
+        height: 100px;
+        #{$back}: #81d4fa;
+    }
+    main {
+        display: flex;
+
+        aside {
+            width: 30%;
+            height: $h9;
+            #{$back}: #4fc3f7;
+        }
+
+        section {
+            display: flex;
+            flex-flow: column;
+            width: 70%;
+
+            .article1 {
+                height: $h3;
+                #{$back}: #29b6f6;
+            }
+            .article2 {
+                height: $h3;
+                #{$back}: #03a9f4;
+            }
+            .article3 {
+                height: $h3;
+                #{$back}: #039be5;
+            }
+        }
+    }
+
+    footer {
+        width: $w12;
+        #{$back}: #0288d1;
+        height: 100px;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 1264px) {
+    .wrap {
+        width: 100%;
+        header {
+            width: 100%;
+        }
+        main {
+            position: relative;
+            section {
+                height: 900px;
+                flex-flow: row;
+                flex-wrap: wrap;
+                .article1 {
+                    width: 100%;
+                    height: 50%;
+                }
+                .article2 {
+                    width: 100%;
+                    height: 50%;
+                }
+                .article3 {
+                    position: absolute;
+                    top: 900px;
+                    left: 0;
+                    width: 100%;
+                    height: $h3;
+                }
+            }
+        }
+        footer {
+            width: 100%;
+            position: absolute;
+            top: 1300px;
+            left: 0;
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .wrap {
+        width: 100%;
+        header {
+            width: 100%;
+            height: 100px;
+        }
+        main {
+            display: block;
+            aside {
+                width: 100%;
+                height: $h3;
+            }
+            section {
+                width: 100%;
+                flex-flow: row wrap;
+                .article1 {
+                    width: 50%;
+                    height: $h3;
+                }
+                .article2 {
+                    width: 50%;
+                    height: $h3;
+                }
+                .article3 {
+                    width: 100%;
+                    height: $h3;
+                }
+            }
+        }
+        footer {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .wrap {
+        width: 100%;
+        header {
+            width: 100%;
+            height: 100px;
+        }
+        main {
+            width: 100%;
+            section {
+                display: block;
+                .article1 {
+                    width: 100%;
+                }
+                .article2 {
+                    width: 100%;
+                }
+                .article3 {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

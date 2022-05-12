@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #e3f2fd;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.wrap header {
+  width: 1200px;
+  height: 100px;
+  background: #81d4fa;
+}
+
+.wrap main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrap main aside {
+  width: 30%;
+  height: 900px;
+  background: #4fc3f7;
+}
+
+.wrap main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 70%;
+}
+
+.wrap main section .article1 {
+  height: 300px;
+  background: #29b6f6;
+}
+
+.wrap main section .article2 {
+  height: 300px;
+  background: #03a9f4;
+}
+
+.wrap main section .article3 {
+  height: 300px;
+  background: #039be5;
+}
+
+.wrap footer {
+  width: 1200px;
+  background: #0288d1;
+  height: 100px;
+}
+
+@media (min-width: 961px) and (max-width: 1264px) {
+  .wrap {
+    width: 100%;
+  }
+  .wrap header {
+    width: 100%;
+  }
+  .wrap main {
+    position: relative;
+  }
+  .wrap main section {
+    height: 900px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .wrap main section .article1 {
+    width: 100%;
+    height: 50%;
+  }
+  .wrap main section .article2 {
+    width: 100%;
+    height: 50%;
+  }
+  .wrap main section .article3 {
+    position: absolute;
+    top: 900px;
+    left: 0;
+    width: 100%;
+    height: 300px;
+  }
+  .wrap footer {
+    width: 100%;
+    position: absolute;
+    top: 1300px;
+    left: 0;
+  }
+}
+
+@media (max-width: 960px) {
+  .wrap {
+    width: 100%;
+  }
+  .wrap header {
+    width: 100%;
+    height: 100px;
+  }
+  .wrap main {
+    display: block;
+  }
+  .wrap main aside {
+    width: 100%;
+    height: 300px;
+  }
+  .wrap main section {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .wrap main section .article1 {
+    width: 50%;
+    height: 300px;
+  }
+  .wrap main section .article2 {
+    width: 50%;
+    height: 300px;
+  }
+  .wrap main section .article3 {
+    width: 100%;
+    height: 300px;
+  }
+  .wrap footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrap {
+    width: 100%;
+  }
+  .wrap header {
+    width: 100%;
+    height: 100px;
+  }
+  .wrap main {
+    width: 100%;
+  }
+  .wrap main section {
+    display: block;
+  }
+  .wrap main section .article1 {
+    width: 100%;
+  }
+  .wrap main section .article2 {
+    width: 100%;
+  }
+  .wrap main section .article3 {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
