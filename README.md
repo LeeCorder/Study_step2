@@ -47,4 +47,4 @@ Practice 'B.E.M' and 'SCSS' technique on this class!
 * block구조 가운데 정렬
   * `margin: 0 auto;`
 * inline구조 가운데 정렬
-  *`text-align: center;`
+  * `text-align: center;`
