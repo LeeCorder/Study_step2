@@ -44,3 +44,7 @@ Practice 'B.E.M' and 'SCSS' technique on this class!
 -------
 ## 3. Tip
 * 반응형 제작 시에는 스크롤바가 생기지 않아야 한다.
+* block구조 가운데 정렬
+  * `margin: 0 auto;`
+* inline구조 가운데 정렬
+  *`text-align: center;`
