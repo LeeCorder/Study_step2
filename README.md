@@ -12,6 +12,7 @@ Practice 'B.E.M' and 'SCSS' technique on this class!
   * 문서의 핵심 / 2개 이상 존재 불가
   * header, nav, article, asdie, footer 요소의 자식으로 불가능
 * &lt;section&gt;
+  * 제목요소를 가져야 
 * &lt;article&gt;
 * &lt;aside&gt;
   * 부가적인 내용 ex) 사이드바
