@@ -49,3 +49,7 @@ Practice 'B.E.M' and 'SCSS' technique on this class!
   * `margin: 0 auto;`
 * inline구조 가운데 정렬
   * `text-align: center;`
+* block & inline & inline-block
+  * block
+    - (header, section, article) 등의 시맨틱 태그, ul, ol, div, h태그, p, form 등
+    - width, height, margin, padding 적용 가능
